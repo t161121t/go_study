@@ -1,0 +1,8 @@
+*.exe
+*.test
+*.out
+
+# 誤って `go build ./lessons/xxx/...` のように単一パッケージを指定してしまうと
+# リポジトリ直下にその名前のバイナリが生成されることがあるため無視する
+/00_hello
+/11_capstone_bookmarks_api
